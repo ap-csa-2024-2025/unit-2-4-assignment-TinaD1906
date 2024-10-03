@@ -8,6 +8,11 @@ public class Rectangle
   private double len;
   private double wid;
 
+  int length = 3;
+  int width = 5;
+  System.out.println("The perimeter is " + (2*(length +  width)));
+  System.out.println("The area is "+ (length*width));
+
 
   // Constructors
   /**
